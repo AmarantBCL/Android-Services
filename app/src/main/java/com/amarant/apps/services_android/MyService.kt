@@ -25,7 +25,7 @@ class MyService : Service() {
                 delay(1000)
             }
         }
-        return START_STICKY
+        return START_REDELIVER_INTENT
     }
 
     override fun onDestroy() {
